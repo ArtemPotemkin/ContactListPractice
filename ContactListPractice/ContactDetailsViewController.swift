@@ -20,5 +20,4 @@ class ContactDetailsViewController: UIViewController {
         emailLabel.text = "E-mail: \(contact.email)"
         title = contact.fullName
     }
-
 }

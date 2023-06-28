@@ -30,14 +30,10 @@ class ContactListViewController: UITableViewController {
         return cell
     }
     
-
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let detailsVC = segue.destination as? ContactDetailsViewController
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
         detailsVC?.contact = contacts[indexPath.row]
-        
     }
-  
-
 }
