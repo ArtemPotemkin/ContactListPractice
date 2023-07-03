@@ -16,6 +16,7 @@
 		D0781FE82A4CC22D00121B99 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0781FE72A4CC22D00121B99 /* Person.swift */; };
 		D0781FEA2A4CC2B800121B99 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0781FE92A4CC2B800121B99 /* DataStore.swift */; };
 		D0781FEC2A4CCDCC00121B99 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */; };
+		D0A3F4A82A52DA36005842C5 /* PersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3F4A72A52DA36005842C5 /* PersonsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0781FE72A4CC22D00121B99 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D0781FE92A4CC2B800121B99 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		D0A3F4A72A52DA36005842C5 /* PersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D0781FD32A4CC10700121B99 /* SceneDelegate.swift */,
 				D0781FD72A4CC10700121B99 /* Main.storyboard */,
 				D0781FE52A4CC17000121B99 /* ContactListViewController.swift */,
+				D0A3F4A72A52DA36005842C5 /* PersonsListTableViewController.swift */,
 				D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */,
 				D0781FE72A4CC22D00121B99 /* Person.swift */,
 				D0781FE92A4CC2B800121B99 /* DataStore.swift */,
@@ -149,6 +152,7 @@
 			files = (
 				D0781FD22A4CC10700121B99 /* AppDelegate.swift in Sources */,
 				D0781FD42A4CC10700121B99 /* SceneDelegate.swift in Sources */,
+				D0A3F4A82A52DA36005842C5 /* PersonsListTableViewController.swift in Sources */,
 				D0781FEC2A4CCDCC00121B99 /* ContactDetailsViewController.swift in Sources */,
 				D0781FE82A4CC22D00121B99 /* Person.swift in Sources */,
 				D0781FEA2A4CC2B800121B99 /* DataStore.swift in Sources */,
