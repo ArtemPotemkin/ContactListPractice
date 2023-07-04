@@ -17,6 +17,7 @@
 		D0781FEA2A4CC2B800121B99 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0781FE92A4CC2B800121B99 /* DataStore.swift */; };
 		D0781FEC2A4CCDCC00121B99 /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */; };
 		D0A3F4A82A52DA36005842C5 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A3F4A72A52DA36005842C5 /* PersonsListViewController.swift */; };
+		D0EE178C2A54476B00843744 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EE178B2A54476B00843744 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D0781FE92A4CC2B800121B99 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
 		D0A3F4A72A52DA36005842C5 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
+		D0EE178B2A54476B00843744 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				D0781FD12A4CC10700121B99 /* AppDelegate.swift */,
 				D0781FD32A4CC10700121B99 /* SceneDelegate.swift */,
 				D0781FD72A4CC10700121B99 /* Main.storyboard */,
+				D0EE178B2A54476B00843744 /* TabBarViewController.swift */,
 				D0781FE52A4CC17000121B99 /* ContactListViewController.swift */,
 				D0A3F4A72A52DA36005842C5 /* PersonsListViewController.swift */,
 				D0781FEB2A4CCDCC00121B99 /* ContactDetailsViewController.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EE178C2A54476B00843744 /* TabBarViewController.swift in Sources */,
 				D0781FD22A4CC10700121B99 /* AppDelegate.swift in Sources */,
 				D0781FD42A4CC10700121B99 /* SceneDelegate.swift in Sources */,
 				D0A3F4A82A52DA36005842C5 /* PersonsListViewController.swift in Sources */,

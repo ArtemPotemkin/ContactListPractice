@@ -9,7 +9,7 @@ import UIKit
 
 class PersonsListViewController: UITableViewController {
     
-    let contacts = Person.getPersons()
+    var contacts: [Person] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +31,9 @@ class PersonsListViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "details", for: indexPath)
+        
         var content = cell.defaultContentConfiguration()
         let contact = contacts[indexPath.section]
-        print(contact.fullName, contact.phoneNumber, contact.email)
         
         switch indexPath.row {
         case 0:
