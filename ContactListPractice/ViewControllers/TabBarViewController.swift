@@ -26,9 +26,5 @@ class TabBarViewController: UITabBarController {
         guard let personsListVC = navigationPersonsListVC.topViewController as? PersonsListViewController else { return }
         
         personsListVC.contacts = contacts
-
-    
-        
     }
-
 }

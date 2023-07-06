@@ -7,14 +7,9 @@
 
 import UIKit
 
-class ContactListViewController: UITableViewController {
+final class ContactListViewController: UITableViewController {
     
     var contacts: [Person] = []
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

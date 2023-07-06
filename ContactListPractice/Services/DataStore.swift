@@ -16,6 +16,7 @@ final class DataStore {
         "David", "Segrey", "Nikita",
         "Nikolay", "Donald", "Ilon", "Alexander"
     ]
+    
     let surnames = [
         "Potemkin", "Nesvetaev", "Yadikin",
         "Rusakov", "Trump", "Kulessky",
@@ -23,6 +24,7 @@ final class DataStore {
         "Losev", "Kabanov", "Orlov",
         "Stathem", "Dzuba", "Akinfeev"
     ]
+    
     let emails = [
         "11@ya.ru", "top@mail.ru", "ya@gmail.com",
         "boby@yahoo.com", "super@rambler.ru", "secret@yandex.ru",
@@ -30,6 +32,7 @@ final class DataStore {
         "rich@rich.ru", "tomato@ogorod.com", "potato@ogorod.ru",
         "simsim@ga.ru", "9t9@ali.net"
     ]
+    
     let phonenumbers = [
         "123121", "12355", "59992",
         "999666", "999888", "8800088",
@@ -38,5 +41,4 @@ final class DataStore {
         "11111", "22222", "3333",
         "44444"
     ]
-    
 }

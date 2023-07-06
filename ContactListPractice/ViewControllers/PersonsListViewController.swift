@@ -11,12 +11,7 @@ class PersonsListViewController: UITableViewController {
     
     var contacts: [Person] = []
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         contacts.count
     }
