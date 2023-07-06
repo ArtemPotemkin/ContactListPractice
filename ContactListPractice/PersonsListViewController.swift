@@ -38,16 +38,17 @@ class PersonsListViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             content.text = contact.phoneNumber
+            content.image = UIImage(systemName: "phone")
         default:
             content.text = contact.email
+            content.image = UIImage(systemName: "mail")
         }
         
         cell.contentConfiguration = content
         return cell
     }
 
-    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
-
 }
