@@ -41,4 +41,6 @@ final class DataStore {
         "11111", "22222", "3333",
         "44444"
     ]
+    
+    private init () {}
 }

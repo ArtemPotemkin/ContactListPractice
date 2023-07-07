@@ -18,12 +18,12 @@ class TabBarViewController: UITabBarController {
         let contacts = Person.getPersons()
         
         viewControllers?.forEach({ viewController in
-            guard let navigatContrlr = viewController as? UINavigationController else { return }
+            guard let navigationController = viewController as? UINavigationController else { return }
             
-            if let contactListVC = navigatContrlr.topViewController as? ContactListViewController {
+            if let contactListVC = navigationController.topViewController as? ContactListViewController {
                 contactListVC.contacts = contacts
                 
-            } else if let personsListVC = navigatContrlr.topViewController as? PersonsListViewController {
+            } else if let personsListVC = navigationController.topViewController as? PersonsListViewController {
                 personsListVC.contacts = contacts
             }
         })
